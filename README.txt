@@ -1,3 +1,18 @@
+# Kibana
+Kibana configuration used to get the logs from ElasticSearch
+* [Kibana](https://www.elastic.co/products/kibana) - Tool used
+
+# Modifications
+
+Just add the ip with the default port, 9200.
+
+```
+# The Kibana server's name.  This is used for display purposes.
+server.name: "Megumibana"
+# The URL of the Elasticsearch instance to use for all your queries.
+elasticsearch.url: "http://192.168.56.1:9200"
+```
+
 # Kibana 6.2.3
 
 Kibana is your window into the [Elastic Stack](https://www.elastic.co/products). Specifically, it's
